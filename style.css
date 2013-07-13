@@ -1,0 +1,282 @@
+/*
+Theme Name: Reactor
+Theme URI: http://awtheme.com/reactor/
+Description: A responsive WordPress starter theme built with ZURB's <a href="http://foundation.zurb.com">Foundation</a>.
+Author: Anthony Wilhelm
+Author URI: http://anthonywilhelm.com
+Version: 1.1.6
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: light, black, blue, gray, white, one-column, two-columns, right-sidebar, flexible-width, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, sticky-post, theme-options, translation-ready
+Text Domain: reactor
+*/
+
+/*
+Theme Name: Foundation, for WordPress
+Theme URI: http://fwp.drewsymo.com
+Author: Drew Morris
+Author URI: http://drewsymo.com
+Version: 4.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: foundation
+Description: Foundation for WordPress, a Responsive Starter Theme.
+Tags: two-columns
+*/
+
+/* Artfully masterminded by ZURB  */
+
+/* -------------------------------------------------- 
+   Table of Contents
+-----------------------------------------------------
+:: Images
+:: Posts
+:: Typography
+:: Header
+:: Shared Styles
+:: Page Name 1
+:: Page Name 2
+*/
+
+/* -----------------------------------------
+   Images
+----------------------------------------- */
+
+.widget img {
+    max-width: 97.5%; /* Fluid images for posts, comments, and widgets */
+}
+img[class*="align"],
+img[class*="wp-image-"] {
+    height: auto; /* Make sure images with WordPress-added height and width >attributes are scaled correctly */
+}
+img.size-full {
+    max-width: 97.5%;
+    width: auto; /* Prevent stretching of full-size images with height and >>width attributes in IE8 */
+}
+
+.wp-caption { max-width: 100%; }
+
+/* -----------------------------------------
+   Posts
+----------------------------------------- */
+
+.author-box h5 {margin-top:0px;}
+.author-box .author_gravatar {margin-right:10px;}
+.author-box p {font-size:14px; font-size:1.4em;}
+
+article .th {margin-bottom:10px; margin-bottom:1em;}
+
+.alignleft {float:left;}
+.alignright {float:right;}
+.aligncenter {margin:0 auto;text-align:center;}
+
+/* -----------------------------------------
+   Typography
+----------------------------------------- */
+
+body,h1,h2,h3,h4,h5,h6,p {font-family: 'Open Sans', sans-serif;}
+h1,h2,h3,h4,h5,h6,a:link {font-weight:300;}
+
+.site-title .subheader {margin-bottom:0;}
+
+/* -----------------------------------------
+   Header
+----------------------------------------- */
+
+.site-header {border-bottom:1px solid #ddd;padding:1.5rem 0 1rem 0;margin:-1.875em 0 1.875em 0;}
+.sidebar ul li {list-style:none;}
+.top-bar {
+  background: #00A6FF;
+  margin-bottom: 0;
+}
+
+.top-bar-section ul li > a {
+  background: #00a6ff;
+}
+
+.top-bar-section ul li > a:hover {
+  background: #19AFFF;
+}
+
+.top-bar-section ul {
+  background: #fff;
+}
+
+.top-bar.expanded .title-area {
+  background: none repeat scroll 0% 0% rgb(17, 17, 17);
+}
+
+.top-bar-section ul li > a {
+  background: #00A6FF;
+}
+
+.top-bar-section ul li > a:hover {
+  background: #00A6FF;
+}
+
+.top-bar-section ul li > a.button {
+  background: #00A6FF;
+}
+
+.top-bar-section ul li > a.button:hover {
+  background: #00A6FF;
+}
+
+.top-bar-section ul li.active > a {
+  background: #4cc1ff;
+}
+
+.top-bar-section ul li > a.button.secondary {
+  background: #00A6FF;
+}
+
+.top-bar-section ul li > a.button.secondary:hover {
+  background: #00A6FF;
+}
+
+.top-bar-section li a:not(.button) {
+  background: #00a6ff;
+
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.top-bar-section li a:not(.button):hover {
+  background: #00537f;
+
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.top-bar-section > ul > .divider,.top-bar-section > ul > [role="separator"] {
+  border-bottom: none;
+  border-top: none;
+  border-right: solid 1px #c6c6c6;
+  border-left: solid 1px white;
+  clear: none;
+  height: 0px;
+  width: 0px;
+}
+
+.top-bar-section .dropdown li label {
+  background: #00A6FF;
+  color: #fff;
+}
+
+
+/* -----------------------------------------
+   Shared Styles
+----------------------------------------- */
+.wp-caption-text {text-align: center;}
+.sticky { }
+.gallery-caption { }
+.bypostauthor{ }
+.site-content .gallery {
+  margin-bottom: 1.5em;
+}
+.gallery-caption {
+}
+.site-content .gallery a img {
+  border: none;
+  height: auto;
+  max-width: 90%;
+}
+.site-content .gallery dd {
+  margin: 0;
+}
+.site-content .gallery-columns-4 .gallery-item {
+}
+.site-content .gallery-columns-4 .gallery-item img {
+}
+
+embed,
+iframe,
+object {
+  max-width: 100%;
+}
+/* -----------------------------------------
+   Page Name 1
+----------------------------------------- */
+
+/* -----------------------------------------
+   Page Name 2
+----------------------------------------- */
+
+/*-------------------------------------------
+   Footer
+------------------------------------------*/
+.footer {
+  background-color: #c6c6c6;
+
+}
+
+.footer h3 {
+  font-size: 1.0625em;
+}
+
+.footer .side-nav li a {
+  font-size: 1.0625em;
+
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.footer .side-nav li a:hover {
+  color: #4cc1ff;
+
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.footer p {
+  font-size: 0.750em;
+}
+
+.footer {
+  text-align: center;
+}
+
+/*------------------------------
+  Slider
+------------------------------*/
+.slider {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.slider .orbit-container {
+  background: #c6c6c6;
+}
+
+.slider img {
+  margin: 0 auto;
+}
+
+.slider .orbit-container .orbit-slide-number {
+  display: none;
+}
+
+.orbit-container .orbit-timer {
+  display: none;
+}
+
+.slider .orbit-bullets li {
+  background: #00A6FF;
+}
+
+.slider .orbit-bullets li.active {
+  background: #002940;
+}
+
