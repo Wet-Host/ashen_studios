@@ -12,8 +12,9 @@
 <!--[if gt IE 8]><!--> <html <?php language_attributes(); ?> class="no-js"><!--<![endif]-->
 
 <head>
-<!-- WordPress head -->
+<!-- WordPress head --><link rel="stylesheet" type="text/css" href="style_custom.css" />
 <?php wp_head(); ?>
+
 <!-- end WordPress head -->
 <?php reactor_head(); ?>
 </head>
